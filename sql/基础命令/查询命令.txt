@@ -1,0 +1,11 @@
+use data_base   选择某一数据库
+语句结束使用分号;
+注释是--
+
+select  colum  from  colum_name  选择某一列  可以使用通配符
+select * from data_name 最好使用两行来书写,防止大量数据时过于复杂
+
+where  寻找特定的行
+order by 排序
+
+使用顺序: select form -- where -- order by

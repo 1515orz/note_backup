@@ -1,0 +1,9 @@
+主序列（key）用于识别数据，默认主键排列
+oeder by 来改变排列键，末尾加上desc倒序排列
+ORDER BY first_name DESC,state DESC
+可以使用多列排序，在排序的基础上顺序排列
+ORDER BY 1，2，3 意思是按select选的序来排序
+
+也可以使用没有被SELECT的列，作为排序规则
+
+可以select as [自定义列] 

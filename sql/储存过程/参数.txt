@@ -1,0 +1,14 @@
+我们一般使用参数传值
+EXP:
+CREATE PROCEDURE get_clients_by_state
+(
+	p_state CHAR(2)  # 可以通过命名来区分局部变量
+)
+BEGIN
+	SELECT * FROM clients c  # 也可以使用地址来区分局部变量 c.state
+    	WHERE c.state = p_state;  
+END $$
+
+
+
+# 传入state，类型为CHAR，长度为2，使用逗号分隔

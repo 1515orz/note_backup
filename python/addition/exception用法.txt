@@ -1,0 +1,31 @@
+exception: 异常
+AssertionError  断言语句(assert)失败
+AttributeError  尝试访问未知对象属性
+EOFError    input{}读到EOF却没接受任何数据
+FloatingPointError  浮点计算错误
+GeneratorExit   generator.close()方法被调用的时候
+ImportError  导入模块失败的时候
+IndexError  索引超出序列的范围
+KeyError    字典中查找一个不存在的关键字
+KeyboardInterrupt   用户输入中断键(ctrl+c)
+MemoryError 内存溢出(可以通过删除对象释放内存)
+Name Error  尝试访问一个不存在的变量
+NotImplementedError  尚未实现的方法
+OSError  操作系统产生的异常(例如打开一个不存在的文件)
+OverflowError   数值运算超过最大限制
+ReferenceError  弱引用(weak reference)试图访问一个已经被垃圾回收机制回收了的对象
+RuntimeError    一般的运行错误
+StopIteration   迭代器没有更多的值
+SyntaxError python的语法错误
+IndentationError    缩进错误
+TabError    Tab和空格混用
+SystemError python 的编译器系统错误
+SystemExit  python 编译器进程被关闭
+TypeError   不同类型间的无效操作
+UnboundLocalError   访问一个未初始化的本地变量(NameError的子类)
+UnicodeError    Unicode相关的错误(valueError的子类)
+UnicodeEncodeError  Unicode编码时的错误(UnicodeError的子类)
+UnicodeDecodeError  Unicode解码时的错误(UnicodeError的子类)
+UnicodeTranslateError   Unicode转换时的错误(UnicodeError的子类)
+ValueError  传入无效的参数
+ZeroDivisionError   除数为零

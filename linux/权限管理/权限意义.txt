@@ -1,0 +1,9 @@
+file r: cat/more/head/tail/less
+	 w: vim 
+	 x : script  command
+
+directory	r: ls
+		w: touch/mkdir/rmdir/rm
+		x: cd 
+
+重点： 对目录的w权限表示可以在目录下创建和删除文件，目录权限可以操作目录中的文件，即使有对文件所有的权限，但是没有目录权限还是不能操作

@@ -1,0 +1,4 @@
+1.以管理员身份打开cmd
+找到cmd应用程序 (C:\Windows\System32\cmd.exe)，右键以管理员身份运行。
+2.执行 python -m ensurepip 赋予权限
+3.执行 python -m pip install --upgrade pip

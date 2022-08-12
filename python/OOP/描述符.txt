@@ -1,0 +1,7 @@
+描述符就是将某周特殊类型的类的实例指派给另一个类的属性
+* __get__(self,instance,value)
+用于访问属性,它返回属性的值
+* __set__(self,instance,value)
+将在属性分配操作中调用,不返回任何内容
+* __delete__(self,instance)
+控制删除操作,不返回任何内容

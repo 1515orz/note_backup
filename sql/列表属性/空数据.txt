@@ -1,0 +1,2 @@
+WHERE phone IS (NOT) NULL
+使用 is null 判断数据是否为空

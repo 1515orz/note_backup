@@ -1,0 +1,17 @@
+使用OUT关键字，OUT...INTO
+EXP:
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_unpaid_invoices_for_client`(
+	client_id INT,
+    OUT invoices_count INT,  # OUT代表要输出的变量，和INTO的变量同名
+    OUT invoices_total DECIMAL(9,2)
+    
+)
+BEGIN
+	SELECT COUNT(*), SUM(invoice_total)
+    INTO invoices_count, invoices_total  # 使用INTO将选中的值输入到下列变量中
+    FROM invoices i 
+    WHERE i.client_id = client_id
+		AND payment_total = 0;
+END
+
+==输出参数需要多走一步逻辑，除非有特别的需要，建议一般别用==

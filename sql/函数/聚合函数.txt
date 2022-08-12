@@ -1,0 +1,9 @@
+MAX( )
+MIN( )
+AVG( )
+SUM( )
+COUNT( )
+聚合函数只运算非空值
+
+使用distinct来筛选唯一值
+COUNT(DISTINCT client_id) AS total_records

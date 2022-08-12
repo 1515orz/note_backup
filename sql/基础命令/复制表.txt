@@ -1,0 +1,12 @@
+CREATE TABLE orders_archived AS 
+SELECT * FROM orders
+如此复制的表没有主键，AI, 需要注意
+
+
+使用SELECT来插入增加表的内容
+INSERT INTO orders_archived
+SELECT *
+FROM orders
+WHERE order_date < '2019-01-01'
+只添加了小于2019的数据
+

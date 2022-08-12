@@ -1,0 +1,7 @@
+在UPDATE之前增加报错条件,抛出异常
+EXP:
+IF payment_amount <= 0 THEN
+	SIGNAL SQLSTATE '22003'  # 抛出异常代码
+		SET MESSAGE_TEXT = 'Invalid payment amount';  # 增加一行报错信息
+    
+    UPDATE invoices i

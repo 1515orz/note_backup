@@ -1,0 +1,9 @@
+# 'classinfo'可以是类对象组成的元组,只要class与其中任何一个候选的子类,则返回True
+issubclass(class,classinfo)  检测类是否属于其他类的子类
+hasattr(object,name) 测试属性是否属于该对象,并且属性要用引号''括起来
+getattr(object,name,[,default])  查找属性是否存在于对象内,如果不存在则返回第三个参数的报错信息
+setattr(object,name,value)  查找属性是否存在于对象内,如果存在,则新建一个,并用第三个参数赋值给name
+delattr(object,name) 删除对象中指定的属性,如果不存在则抛出异常,可以先用hasattr来检测属性是否存在对象中删除
+
+property(fget = None fset =None,fdel = None,doc = None)  用属性来设置属性
+

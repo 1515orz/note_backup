@@ -1,0 +1,9 @@
+UPDATE invoices
+SET 
+	payment_total = invoice_total * 0.5,
+	payment_date = due_date
+WHERE client_id = 3  or
+WHERE client_id IN (3,4)
+
+
+需要在mysql关闭安全更新选项之后，可以更新所有符合条件的项目

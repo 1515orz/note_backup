@@ -1,0 +1,5 @@
+struct time 格式化的字符串形式的时间，输出格式化的时间
+time.strftime('%Y-%m-%d %:%M%S %p',time.localtime())
+
+按照asc格式转化时间  print(time.asctime())
+#如果没有参数,会把time.localtime()作为参数传入

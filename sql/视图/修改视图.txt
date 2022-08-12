@@ -1,0 +1,10 @@
+1.删除并且新建
+DROP VIEW [name]
+
+2.使用REPLACE
+在创建时：
+CREATE OR REPLACE VIEW [name] AS 
+
+3.在表格的编辑选项中修改源码，接下来apply进行更新操作
+
+4.最适合的办法，将视图保存为SQL文件，整理储存起来（本地，github等）

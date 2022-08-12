@@ -1,0 +1,2 @@
+IF(expression,first,second)
+equal to IF(EXPRESSION==TRUE A ELSE B)

@@ -1,0 +1,20 @@
+SELECT *
+FROM clients c
+WHERE EXISTS(      
+	SELECT client_id
+    FROM invoices
+    WHERE client_id = c.client_id
+)
+
+
+和  WHERE IN 的区别，
+每次IN 操作会返回判断所有行，当数据量很大时会影响性能，
+而EXISTS 相当于遍历判断，效率更高
+
+SELECT *
+FROM clients c
+WHERE client_id IN (
+	SELECT client_id
+    	FROM invoices
+)
+

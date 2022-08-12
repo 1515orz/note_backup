@@ -1,0 +1,13 @@
+如果VIEW中没有如下元素：
+DISTINCT
+Aggregate Fuctions (MIN, MAX, SUM...)
+GROUP BY / HAVING
+UNION 
+则我们称那个视图是可更新视图，我们可以在这上面更新数据，
+即可以使用INSERT, UPDATE, DELETE 等语句
+
+exp:
+DELETE FROM invoices_with_balance 
+WHERE invoice_id = 1
+
+很多时候我们是不能直接更新数据的，因此可以使用视图对他们进行更新，前提是我们没有使用聚合函数，union，distinct，group by等操作

@@ -1,0 +1,87 @@
+{
+    "created_time": "2022-08-05T10:19:56Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2022-08-05T10:19:56Z",
+            "id": "320",
+            "modified_time": "2022-08-05T10:19:56Z",
+            "name": "BIF.txt",
+            "signature": "53813304946380",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-08-05T10:19:56Z",
+            "id": "321",
+            "modified_time": "2022-08-05T10:19:56Z",
+            "name": "全局和局部对象.txt",
+            "signature": "96848877252300",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-08-05T10:19:56Z",
+            "id": "322",
+            "modified_time": "2022-08-05T10:19:56Z",
+            "name": "协议.txt",
+            "signature": "74893004435148",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-08-05T10:19:56Z",
+            "id": "323",
+            "modified_time": "2022-08-05T10:19:56Z",
+            "name": "描述符.txt",
+            "signature": "85325479997132",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-08-05T10:19:57Z",
+            "id": "324",
+            "modified_time": "2022-08-05T10:19:57Z",
+            "name": "类和对象.txt",
+            "signature": "55617191210701",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-08-05T10:19:57Z",
+            "id": "327",
+            "modified_time": "2022-08-05T10:19:57Z",
+            "name": "面向对象.txt",
+            "signature": "14162166869709",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-08-05T10:19:57Z",
+            "id": "330",
+            "modified_time": "2022-08-05T10:19:57Z",
+            "name": "魔术(法)方法.txt",
+            "signature": "69172107996877",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "面向对象.resource"
+        },
+        {
+            "name": "魔术(法)方法.resource"
+        }
+    ],
+    "id": "319",
+    "modified_time": "2022-08-05T10:19:56Z",
+    "signature": "71671778963148",
+    "version": 3
+}

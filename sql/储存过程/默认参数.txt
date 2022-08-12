@@ -1,0 +1,19 @@
+可以使用条件语句
+EXP:
+BEGIN
+	IF state IS NULL THEN 
+		SELECT * FROM clients;
+	ELSE
+		SELECT * FROM clients c
+		WHERE c.state = state;
+	END IF;
+
+IF .... EXP ... THEN... ;
+ELSE ...
+END IF;
+
+elegant：
+BEGIN
+		SELECT * FROM clients c
+		WHERE c.state = IFNULL(state, c.state);   最优雅的方式
+END $$

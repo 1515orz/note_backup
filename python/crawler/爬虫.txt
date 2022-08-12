@@ -1,0 +1,14 @@
+如何访问互联网：
+使用url : 协议 + hostname + 域名 + 路径
+protocol://hostname[:port]/path/[;parameters][?query]#fragment  带方括号的是可选项
+# openurl有一个data的默认值,如果没赋值就是GET,如果赋值了就是POST
+
+url由三部分组成:
+第一部分是协议:http,https,ftp,file,ed2k...
+第二部分是存放资源的服务器域名系统或ip地址(有时候需要包括端口号,各种传输协议都有默认的端口号,如http的默认端口号为80)
+第三部分是资源的具体地址,如目录或文件名等
+模块:urllib,requests
+urllib.request.urlopen(url, data=None, [timeout, ]*, cafile=None, capath=None, cadefault=False, context=None)
+
+    我们在对网页进行抓取时，经常需要判断网页是否可以正常访问，这里我们就可以使用 getcode() 函数获取网页状态码，
+返回 200 说明网页正常，返回 404 说明网页不存在:

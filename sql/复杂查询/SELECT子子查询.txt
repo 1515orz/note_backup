@@ -1,0 +1,8 @@
+SELECT
+	invoice_id,
+    invoice_total,
+    (SELECT AVG(invoice_total)
+		FROM invoices) AS invoice_average,    （SELECT 不能直接选择别名）
+	invoice_total - (SELECT invoice_average) AS diff   注意，为了简化查询，可以在子子查询中使用SELECT 选择列的别名，而不用写整个子子查询
+FROM invoices
+

@@ -1,0 +1,7 @@
+当超过一列数据确定特征行时，称为复合主键
+
+JOIN order_item_notes oin
+	ON oi.order_id = oin.order_id 
+    AND oi.product_id = oin.product_id
+
+使用AND 连接表的复合主键

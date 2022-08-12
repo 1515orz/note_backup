@@ -1,0 +1,20 @@
+协议是什么
+    协议(protocols)与其他编程语言中的接口很相似,它规定你那些方法必须要定义,然而,在python中的协议
+就显得不那么正式,事实上,在python中,协议更像是一种指南
+
+DuckTyping: 当看到一只鸟走起来像鸭子,游泳起来像鸭子,叫起来也像鸭子,那么这只鸟就可以称为鸭子
+
+容器类型的协议:
+    如果你希望定制的容器是不可变的话,你只需要定义__len__()和__getitem__()方法
+    如果你希望定制的容器是可变的话,除了上面的,你还需要定义__setitem__()和__delitem__()两个方法
+
+
+*****
+__len__(self) 定义当len()被调用时的行为(返回容器中的个数)
+__getitem__(self) 定义获取容器中指定元素的行为,相当于self[key]
+__setitem__(self,key,value) 定义设置容器中指定元素的行为,相当于self[key]=value
+__delitem__(self,key) 定义删除容器中指定元素的行为,相当于 del self[key]
+__reversed__(self) 定义当reversed()调用时的行为
+__contain__(self,item) 定义当使用成员测算符(in 或 not in)时的行为
+
+

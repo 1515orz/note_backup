@@ -1,0 +1,10 @@
+什么是集合：
+set（集合）也是python中的一种数据类型，是一种无序且不重复的元素集合
+创建集合方式：
+# 第一种方式
+set1 = {"1","2"}
+# 第二种方式
+list1 = ['1','2','7','3']
+set2 = set(list1)
+集合操作函数：
+add(),clear(),difference(),intersection(),union(),pop(),discard(),update()

@@ -1,0 +1,7 @@
+INSERT INTO 'a,b,c,d'
+
+
+VALUES (default，null,c,d) 
+对于有初始值的，尽量使用default
+AI 功能可以在增添行数的时候自动增加序号，exp：1，2，3，4....
+
