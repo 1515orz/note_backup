@@ -3,7 +3,7 @@
 
 ## 常用yunm命令
 
-* 查询
+* 查询dasdfasfasfaewfaf  asdfafaefaefafasfasf
 `yum list` 查询所有可用软件包列表
 `yum search [关键字]`  搜索服务器上所有关键字相关的包
 
