@@ -15,6 +15,9 @@ split()方法语法:
 返回分割后的字符串列表
 
 ### 实例
+
+`str.split()` 可以返回一个不包含空格的字符拆分列表
+
 _EXP1_
 str ="Line1-abcdef \nLine2-abc \nLine4-abcd"
 print(str.split()  **以空格为分隔符,包含\n**
