@@ -69,9 +69,9 @@ if [ -d /tmp/dbback ] # 如果文件夹存在
                 cd /tmp/dbback
                 # 将/etc目录和db.txt打包到一起
                 tar -zcf etc_$date.tar.gz /etc db.txt &>/dev/null
-                rm -rf /tmp/dbback/db.txt  # 删除打包之前的文件
+                rm -rf /tmp/dbback/db.txt  # 删除打包之前的日志文件
         else  # 假如不存在/tmp/dbback这个目录
-                mkdir /tmp/dbback/db/txt
+                mkdir /tmp/dbback/db.txt
                 # 下面的步骤和上面相同
                 echo "Date is : $date" > /tmp/dbback/db.txt
                 echo "Size is : #size" >> /tmp/dbback/db.txt
@@ -92,7 +92,7 @@ fi
 # 判断apache服务宕了没, 并自动重启
   
 # 将nmap扫描的apache服务状态赋值给port
-port=$(nmap -sT 192.168.124.140 | grep tcp | grep http | awk '{print $2}')
+port=$(nmap -sT localhost | grep tcp | grep http | awk '{print $2}')
 
 # 判断服务是否启动, 执行分支结果 
 if [ $port == "open" ] # 一定要加空格!!
@@ -145,13 +145,13 @@ if [ -z "$file" ]
                         echo "Your input is not a file"
                         exit 2
         elif [ -f "$file" ]
-        then
+            then
                 echo "$file is a regular file!"
-         elif [ -d "$file" ]
-        then
+        elif [ -d "$file" ]
+            then
                 echo "$file is a directory"
         else
-                echo "$file is a oher file"
+                echo "$file is a other file"
 fi
 ```
 

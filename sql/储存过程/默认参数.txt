@@ -12,7 +12,8 @@ IF .... EXP ... THEN... ;
 ELSE ...
 END IF;
 
-elegant：
+> 优雅的写法
+
 BEGIN
 		SELECT * FROM clients c
 		WHERE c.state = IFNULL(state, c.state);   最优雅的方式
