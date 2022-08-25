@@ -8,3 +8,16 @@ CREATE OR REPLACE VIEW [name] AS
 3.在表格的编辑选项中修改源码，接下来apply进行更新操作
 
 4.最适合的办法，将视图保存为SQL文件，整理储存起来（本地，github等）
+
+视图重命名
+
+`RENAME TABLE name1 TO name 2 `
+将视图名字1改成名字2
+
+## 示例
+
+`CREATE OR REPLACE VIEW name AS` 是固定格式
+```
+CREATE OR REPLACE VIEW v_teachers AS 
+SELECT * FROM teachers WHERE country = 'CN'
+```
