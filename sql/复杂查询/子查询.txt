@@ -1,8 +1,0 @@
-SELECT *
-FROM employees
-WHERE salary > (
-	SELECT AVG(salary)
-    FROM employees
-)
-
-在where from 条件中套娃

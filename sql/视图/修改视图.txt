@@ -1,3 +1,5 @@
+
+
 1.删除并且新建
 DROP VIEW [name]
 
@@ -21,3 +23,4 @@ CREATE OR REPLACE VIEW [name] AS
 CREATE OR REPLACE VIEW v_teachers AS 
 SELECT * FROM teachers WHERE country = 'CN'
 ```
+由于视图是不存在的, 所以我们对于视图的更新操作会映射到真实表中
