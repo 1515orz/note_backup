@@ -4,11 +4,12 @@
         {
             "attachment_folder": "",
             "created_time": "2022-08-11T02:43:11Z",
-            "id": "279",
-            "modified_time": "2022-08-11T02:43:11Z",
-            "name": "EXISTS运算符.txt",
+            "id": "434",
+            "modified_time": "2022-08-29T05:04:00Z",
+            "name": "EXISTS运算符.md",
             "signature": "105073740115135",
             "tags": [
+                "points"
             ]
         },
         {
@@ -18,16 +19,6 @@
             "modified_time": "2022-08-29T02:19:31Z",
             "name": "rollup运算符.md",
             "signature": "120883514731711",
-            "tags": [
-            ]
-        },
-        {
-            "attachment_folder": "",
-            "created_time": "2022-08-11T02:43:11Z",
-            "id": "282",
-            "modified_time": "2022-08-21T10:38:22Z",
-            "name": "日期运算.txt",
-            "signature": "99992793803967",
             "tags": [
             ]
         },

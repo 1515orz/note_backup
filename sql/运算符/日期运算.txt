@@ -1,7 +1,0 @@
-DATE_ADD(NOW( ), INTERVAL 1 YEAR)  在现在日期上增加一年
-DATE_SUB(NOW( ), INTERVAL 1 DAY)  在现在日期上减少一天
-
-DATEDIFF('2019-01-5'，'2019-01-01') 计算两个日期差值,前减去后,存在负值,默认单位是日,不计算时间间隔
-TIME_TO_SEC('9:00')  计算时间的秒数,可以用相减求差值
-
-TIMESTAMPDIFF(month,date1,date2) 返回两个数据的日期差,以月为单位

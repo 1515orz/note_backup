@@ -1,7 +1,0 @@
-NOW ( ) 获得当前时间
-CURDATE 获得当前日期
-CURTIME 获取当前分秒时间
-YEAR,DAY,HOUR,DAYNAME,MONTHNAME,都可以使用
-
-EXTRACT 用于导入其他DBMS , 因为YEAR(NOW( ))这种用法只能在sql中
-	而EXTRACT(YEAR FROM NOW( )) 属于通用用法
