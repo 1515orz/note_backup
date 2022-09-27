@@ -10,13 +10,13 @@
 ```
 if [ 条件判断式 ];then # if和then放在一起需要号分隔
     main
-if
+fi
 
 # 或者这样写
 if [ 条件判断式 ]
     then
         main
-if
+fi
 ```
 
 * 单分支条件语句需要注意的几个点
