@@ -1,8 +1,0 @@
-ifconfig -- configure a network interface 查看/配置计算机当前的网卡配置信息
-
-查看网卡对应的ip地址：
-ifconfig | grep inet
-
-ping -- 检测到目标ip地址的链接是否正常
-ping ip地址  检测到目标主机是否连接正常
-127.0.0.1 被称为回环地址，用来检测本地网卡工作正常
